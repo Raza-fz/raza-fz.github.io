@@ -998,10 +998,15 @@ footer{
 
     display:grid;
 
-    grid-template-columns:
-        repeat(auto-fit,minmax(290px,1fr));
+    grid-template-columns:repeat(3,1fr);
 
     gap:26px;
+
+}
+
+.highlights-grid .highlight-card:nth-child(4){
+
+    grid-column:2 / 3;
 
 }
 
@@ -2359,10 +2364,4 @@ button:focus-visible,
 /* ===========================
    END OF STYLE.CSS v2
 =========================== */
-/* Center the last achievement card */
-.highlights-grid .highlight-card:last-child{
-    grid-column: 1 / -1;
-    max-width: 420px;
-    width: 100%;
-    justify-self: center;
-}
+
