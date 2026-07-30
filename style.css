@@ -2359,3 +2359,10 @@ button:focus-visible,
 /* ===========================
    END OF STYLE.CSS v2
 =========================== */
+/* Center the last achievement card */
+.highlights-grid .highlight-card:last-child{
+    grid-column: 1 / -1;
+    max-width: 420px;
+    width: 100%;
+    justify-self: center;
+}
