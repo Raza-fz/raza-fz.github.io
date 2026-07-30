@@ -1661,16 +1661,12 @@ z-index:-1;
 }
 
 .contact__lead{
-margin-bottom:48px;
-max-width:760px;
+    max-width:760px;
+    margin:0 auto 48px;
 
-margin:0 auto 40px;
-
-color:var(--muted);
-
-font-size:1.08rem;
-
-line-height:1.9;
+    color:var(--muted);
+    font-size:1.08rem;
+    line-height:1.9;
 
 }
 
