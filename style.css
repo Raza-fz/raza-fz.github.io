@@ -964,7 +964,7 @@ transition:
 
 }
 
-.::before{
+.highlight-card::before{
 
 content:"";
 
