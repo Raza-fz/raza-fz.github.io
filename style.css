@@ -444,6 +444,7 @@ footer{
     gap:22px;
 
 }
+
 /* ===============================================================
    PART 2 — SHARED SECTIONS + ABOUT
    Replace everything from
@@ -768,6 +769,7 @@ footer{
     margin-top:10px;
 
 }
+
 /* ===============================================================
    PART 3 — BUSINESS IMPACT + METRICS + KEY ACHIEVEMENTS
    Replace everything from
@@ -1002,6 +1004,12 @@ footer{
 
 }
 
+.highlights-grid .highlight-card:nth-child(4){
+
+    grid-column:2 / 3;
+
+}
+
 .highlight-card{
 
     position:relative;
@@ -1164,6 +1172,7 @@ footer{
     transition-delay:.08s;
 
 }
+
 /* ===============================================================
    PART 4 — PROFESSIONAL JOURNEY
    Replace everything from
@@ -1529,6 +1538,7 @@ footer{
     }
 
 }
+
 /* ===============================================================
    PART 5 — CORE COMPETENCIES + CONTACT + FOOTER
    Replace everything from
@@ -1890,6 +1900,7 @@ footer{
     opacity:.75;
 
 }
+
 /* ===============================================================
    PART 6 — ANIMATIONS + RESPONSIVE + ACCESSIBILITY
    Replace everything from
